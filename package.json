@@ -1,0 +1,17 @@
+{
+  "name": "step-functions-scraper",
+  "version": "1.0.0",
+  "description": "Scrape step function start execution events from ye old cloud trail events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "async": "^2.6.1",
+    "serverless-plugin-existing-s3": "^2.2.2",
+    "zlib": "^1.0.5"
+  }
+}
